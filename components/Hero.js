@@ -20,7 +20,7 @@ const Hero = () => {
                 <div><Image src={`https://img.icons8.com/ios-filled/100/logo.png`} alt="hero" width={`100`} height={`100`} /></div>
                 <div className="flex flex-row justify-between mx-auto space-x-3">
                     {NavMenu && NavMenu.map((value, index) => (
-                        <Link href={value.link}>{value.title}</Link>
+                        <Link key={index} href={value.link}>{value.title}</Link>
                     )
                     )}
                 </div>
