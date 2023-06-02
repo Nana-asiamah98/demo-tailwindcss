@@ -1,34 +1,85 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Marching Cubes Implementation and Visualization
 
-## Getting Started
+# Demo
 
-First, run the development server:
+## Video
 
-```bash
-npm run dev
-# or
-yarn dev
+<a href="https://ibb.co/RC5rQ5y"><img src="https://i.ibb.co/RC5rQ5y/Untitled-video-Made-with-Clipchamp.gif" alt="Untitled-video-Made-with-Clipchamp" border="0"></a>
+
+## Images
+
+<a href="https://ibb.co/3F1qLFN"><img src="https://i.ibb.co/3F1qLFN/visual-images-marching-cubes-2.png" alt="visual-images-marching-cubes-2" border="0"></a>
+<a href="https://ibb.co/7vjS9nh"><img src="https://i.ibb.co/7vjS9nh/marching-cube-2.png" alt="marching-cube-2" border="0"></a>
+<a href="https://ibb.co/Fwnzjfj"><img src="https://i.ibb.co/Fwnzjfj/marching-cube-1.png" alt="marching-cube-1" border="0"></a>
+<a href="https://ibb.co/HnddFFt"><img src="https://i.ibb.co/HnddFFt/visual-images-marching-cubes-1.png" alt="visual-images-marching-cubes-1" border="0"></a>
+
+## Introduction
+
+Marching Cubes Implementation and Visualization is an open-source code written in Python by [Alvin, alias alvin-yang61](https://github.com/alvin-yang68/Marching-Cubes/) which was cloned using the following git command from GitHub.
+
+```
+git clone https://github.com/alvin-yang68/Marching-Cubes.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Prerequisites
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+- Python 3.9.7
+- Visual Studio Code (VS Code)
+- Jupyter (VS Code Extension - Microsoft Verified)
+- Python (VS Code Extension - Microsoft Verified)
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Installation
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install some the libraries in your terminal(Command Prompt, Powershell, Terminal, etc)
 
-## Learn More
+- IPY Kernel
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pip install ipykernel
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Matplot Library
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+python -m pip install -U matplotlib
+```
 
-## Deploy on Vercel
+- pynrrd
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+pip install pynrrd
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Pyvista
+
+```bash
+pip install pyvista
+```
+
+- Visualization Toolkit (VTK)
+
+```bash
+python -m pip install vtk
+```
+
+- Interactive Jupyter idgets
+
+```bash
+pip install itkwidgets
+```
+
+- Scikit-image
+
+```bash
+pip install scikit-image
+```
+
+## Execution
+
+- In VS Code, open the following the file `Marching_Vubes.ipynb`.
+- Click on the ## Run All ## button just below the Menu bar of VS Code.
+- Scroll down the page to see a visualization of the provided data in the application.
+
+### References
+
+- https://github.com/alvin-yang68/Marching-Cubes/
